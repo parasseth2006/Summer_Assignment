@@ -1,3 +1,4 @@
+import java.util.*;
 interface LibraryUser {
     void registerAccount();
     void requestBook();
@@ -49,7 +50,7 @@ class AdultUser implements LibraryUser {
     }
 }
 
-public class LibraryInterfaceDemo {
+public class Library_Interface_Demo {
     public static void main(String[] args) {
         KidUsers kid = new KidUsers();
         
